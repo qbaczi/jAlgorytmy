@@ -78,7 +78,7 @@ public class ZadDom {
     }
 
     private static boolean isPalindrom() {
-
+        Scanner sc = new Scanner(System.in);
         String word = sc.nextLine();
 
         for (int i = 0, j = word.length() - 1; i < j; i++, j--) {
